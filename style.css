@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scrollbar-color: black;
+}
+
+/* header start */
+
+.main{
+    display: flex;
+    background-image: url(Main.png);  
+}
+
+.left{
+    margin: 6px;
+}
+
+.left img{
+    width: 80px;
+    margin-left: 50px;
+    filter: invert(100%);
+}
+
+.mid{
+    
+}
+.headdingtop{
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 5px;
+    font-size: 85px;
+    color: rgb(238, 238, 238);
+    margin: -25px;
+    margin-left: 55px;
+}
+/* header end */
+/* navigation bar start */
+.navi{
+    border: 5px solid black;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    position: sticky;
+    margin-top: 10px;
+}
+
+.navi ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.navi a{
+    text-decoration: none;
+    font-size: 25px;
+}   
+/* navigation bar end */
